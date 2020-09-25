@@ -1,0 +1,1 @@
+docker run -d -p 80:80 -p 443:443 --name svrtsl -v /opt/srv_data:/srv -v /opt/caddy_data:/data -v /opt/caddy_config:/config caddy caddy file-server --browse --domain itv.id500.de
